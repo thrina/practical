@@ -26,6 +26,11 @@ export class AppComponent {
     console.log(event.target.value);      
     this.found=true;
   }
+//   onNameKeyUp(event:any){
+//     this.name=event.target.value;
+//     console.log(event.target.value);      
+//     this.found=true;
+//   }
   getProfile(){
     this.http.get(this.url)
     .subscribe(
